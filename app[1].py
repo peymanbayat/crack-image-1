@@ -86,8 +86,8 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title("Welcome to the Structural Defect Detection Program!")
 st.header("Please fill the following details properly:")
 State = st.selectbox(
-    'Select State Name',
-    ('Ontario', 'Quebec', 'Nova Scotia', 'New Brunswick', 'Manitoba', 'British Columbia', 'Prince Edward Island', 'Saskatchewan', 'Alberta', 'Newfoundland and Labrador')
+    'Select Region Name',
+    ('Tehran Province', 'Khorasan Province', 'Isfahan Province', 'Azarbayjan Provinces', 'Fars Province', 'Northern Provinces', 'Southern Provinces', 'Western Provinces', 'South East Provinces', 'Khuzestan')
 )
 
 file = st.file_uploader("Please upload your image here:")
